@@ -84,7 +84,7 @@ public class C09_Post_JsonPathIleBodyTesti {
                 .body(reqBody.toString())
                 .post(url);
 
-        response.prettyPrint();
+     //   response.prettyPrint();
 
         // 4 - Assertion
 
