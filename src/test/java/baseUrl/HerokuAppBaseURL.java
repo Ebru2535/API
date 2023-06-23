@@ -6,13 +6,17 @@ import org.junit.Before;
 
 public class HerokuAppBaseURL {
 
-
     protected RequestSpecification specHerokuApp;
 
     @Before
-    public  void setUp(){
+    public void setUp(){
 
-        specHerokuApp=new RequestSpecBuilder()
-                                     .setBaseUri(" https://restful-booker.herokuapp.com").build();
+        specHerokuApp = new RequestSpecBuilder()
+                                        .setBaseUri("https://restful-booker.herokuapp.com")
+                                        .build();
+
     }
+
+
+
 }
