@@ -2,6 +2,7 @@ package test;
 
 import io.restassured.response.Response;
 import org.junit.Test;
+import pojos.JsonPlaceRequestBodyPOJO;
 
 
 import static groovy.json.JsonOutput.prettyPrint;

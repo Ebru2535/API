@@ -5,7 +5,6 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.junit.Test;
-import testData.TestDataJsonPlace;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
